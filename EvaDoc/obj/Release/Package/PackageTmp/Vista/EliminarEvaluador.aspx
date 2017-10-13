@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="EliminarEvaluador.aspx.cs" Inherits="EvaDoc.Vista.EliminarEvaluador" %>

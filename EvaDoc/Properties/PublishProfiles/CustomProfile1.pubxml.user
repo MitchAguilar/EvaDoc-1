@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJyLNc8IHw0yp9KKxeWyQKwAAAAACAAAAAAAQZgAAAAEAACAAAAAkGmbeeUf7/9Y568d6nAgQRx5LfMLJoIe2NvKtjVsSgQAAAAAOgAAAAAIAACAAAADWg4KuAiFr0vyiPjISMiWhYqNNYsY/n1QE003PoPCkETAAAACH2Lin2ZR83LOxPCO2VZuyCh8gaTs8zqJKSNxKhqc+3DKWoGhM62WcNjfX2MYo7C9AAAAAJIr7oiR8Ic8P/4zwSI8pCsiXDTgwTXDCxe2hjr+m+BilFdCz6mAMqxiady7VZJ9pVSms9WvQDSOHeQQ84d6loQ==</EncryptedPassword>
+    <_PublishTargetUrl>ftp://191.102.85.226/EvaDoc</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/EvaDoc.dll">
+      <publishTime>10/10/2017 10:33:14</publishTime>
+    </File>
+    <File Include="bin/EvaDoc.pdb">
+      <publishTime>10/10/2017 10:33:14</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>09/27/2017 15:44:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/22/2017 03:42:14</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>10/02/2015 17:05:26</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.Entity.dll">
+      <publishTime>10/02/2015 17:04:50</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.Entity.EF5.dll">
+      <publishTime>10/02/2015 17:05:10</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.Entity.EF6.dll">
+      <publishTime>10/02/2015 17:05:30</publishTime>
+    </File>
+    <File Include="bin/MySql.Fabric.Plugin.dll">
+      <publishTime>10/02/2015 17:05:14</publishTime>
+    </File>
+    <File Include="bin/MySql.Web.dll">
+      <publishTime>10/02/2015 17:05:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>09/22/2017 03:42:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>09/22/2017 03:42:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>09/22/2017 03:42:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>09/22/2017 03:42:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>09/22/2017 03:42:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>09/22/2017 03:42:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>09/22/2017 03:42:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>09/22/2017 03:42:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>09/22/2017 03:42:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>09/22/2017 03:42:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>09/22/2017 03:42:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>09/22/2017 03:42:14</publishTime>
+    </File>
+    <File Include="Estilo/assets/css/bootstrap.min.css">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/css/demo.css">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/css/material-dashboard.css">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/img/apple-icon.png">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/img/cover.jpeg">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/img/faces/marc.jpg">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/img/favicon.png">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/img/mask.png">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/img/new_logo.png">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/img/sidebar-1.jpg">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/img/sidebar-2.jpg">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/img/sidebar-3.jpg">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/img/sidebar-4.jpg">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/img/tim_80x80.png">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/js/arrive.min.js">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/js/bootstrap-notify.js">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/js/bootstrap.min.js">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/js/chartist.min.js">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/js/demo.js">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/js/jquery-3.2.1.min.js">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/js/material-dashboard.js">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/js/material.min.js">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/js/perfect-scrollbar.jquery.min.js">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/material-dashboard.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/mixins/_chartist.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/mixins/_transparency.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/mixins/_vendor-prefixes.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/plugins/_animate.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/plugins/_perfect-scrollbar.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/plugins/_plugin-nouislider.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_alerts.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_buttons.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_cards.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_chartist.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_checkboxes.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_colors.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_dialogs.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_dropdown.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_footers.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_forms.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_inputs-size.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_inputs.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_misc.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_mixins.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_navbars.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_pagination.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_pills.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_popups.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_radios.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_responsive.scss">
+      <publishTime>09/22/2017 03:42:46</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_ripples.scss">
+      <publishTime>09/22/2017 03:42:48</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_shadows.scss">
+      <publishTime>09/22/2017 03:42:48</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_sidebar-and-main-panel.scss">
+      <publishTime>09/22/2017 03:42:48</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_tables.scss">
+      <publishTime>09/22/2017 03:42:48</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_tabs.scss">
+      <publishTime>09/22/2017 03:42:48</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_togglebutton.scss">
+      <publishTime>09/22/2017 03:42:48</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_typography.scss">
+      <publishTime>09/22/2017 03:42:48</publishTime>
+    </File>
+    <File Include="Estilo/assets/sass/md/_variables.scss">
+      <publishTime>09/22/2017 03:42:48</publishTime>
+    </File>
+    <File Include="Estilo/giecom.png">
+      <publishTime>09/28/2017 00:05:56</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/ar.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/az.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/bg.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/ca.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/cs.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/da.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/de.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/el.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/en.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/es.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/et.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/eu.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/fa.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/fi.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/fr.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/gl.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/he.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/hi.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/hr.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/hu.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/id.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/is.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/it.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/ja.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/km.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/ko.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/lt.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/lv.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/mk.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/ms.js">
+      <publishTime>09/23/2017 07:02:36</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/nb.js">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/nl.js">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/pl.js">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/pt-BR.js">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/pt.js">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/ro.js">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/ru.js">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/sk.js">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/sr-Cyrl.js">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/sr.js">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/sv.js">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/th.js">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/tr.js">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/uk.js">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/vi.js">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/zh-CN.js">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Estilo/select2/i18n/zh-TW.js">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Estilo/select2/select2.css">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Estilo/select2/select2.full.js">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Estilo/select2/select2.full.min.js">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Estilo/select2/select2.js">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Estilo/select2/select2.min.css">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Estilo/select2/select2.min.js">
+      <publishTime>09/23/2017 07:02:38</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/22/2017 03:42:12</publishTime>
+    </File>
+    <File Include="Index.aspx">
+      <publishTime>09/28/2017 22:44:07</publishTime>
+    </File>
+    <File Include="MasterP.Master">
+      <publishTime>10/09/2017 13:58:40</publishTime>
+    </File>
+    <File Include="Models/Reporte.cs">
+      <publishTime>10/05/2017 09:50:44</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/22/2017 03:42:16</publishTime>
+    </File>
+    <File Include="PersonaRegistrar.aspx">
+      <publishTime>10/10/2017 10:26:19</publishTime>
+    </File>
+    <File Include="Script/Script.js">
+      <publishTime>10/10/2017 14:43:31</publishTime>
+    </File>
+    <File Include="Vista/Calificar.aspx">
+      <publishTime>10/02/2017 17:45:14</publishTime>
+    </File>
+    <File Include="Vista/CalificarProfesor.aspx">
+      <publishTime>09/10/2017 19:48:33</publishTime>
+    </File>
+    <File Include="Vista/CriterioGestionar.aspx">
+      <publishTime>10/10/2017 14:07:25</publishTime>
+    </File>
+    <File Include="Vista/CriterioModificar.aspx">
+      <publishTime>10/02/2017 17:45:16</publishTime>
+    </File>
+    <File Include="Vista/DarNota.aspx">
+      <publishTime>10/09/2017 14:49:03</publishTime>
+    </File>
+    <File Include="Vista/DetalleEvaluar.aspx">
+      <publishTime>10/02/2017 17:46:06</publishTime>
+    </File>
+    <File Include="Vista/DocumentoCalificar.aspx">
+      <publishTime>10/02/2017 17:45:17</publishTime>
+    </File>
+    <File Include="Vista/DocumentoSubir.aspx">
+      <publishTime>10/02/2017 17:45:17</publishTime>
+    </File>
+    <File Include="Vista/EliminarDocumento.aspx">
+      <publishTime>10/10/2017 09:55:32</publishTime>
+    </File>
+    <File Include="Vista/EliminarEvaluador.aspx">
+      <publishTime>10/10/2017 12:59:12</publishTime>
+    </File>
+    <File Include="Vista/EliminarRevision.aspx">
+      <publishTime>09/10/2017 20:05:39</publishTime>
+    </File>
+    <File Include="Vista/EvaluadorAsignar.aspx">
+      <publishTime>10/10/2017 13:00:40</publishTime>
+    </File>
+    <File Include="Vista/GenerarReporte.aspx">
+      <publishTime>10/02/2017 17:45:18</publishTime>
+    </File>
+    <File Include="Vista/Principal.aspx">
+      <publishTime>10/02/2017 17:45:19</publishTime>
+    </File>
+    <File Include="Vista/SubirResultado.aspx">
+      <publishTime>10/09/2017 15:22:21</publishTime>
+    </File>
+    <File Include="Vista/VerDocumento.aspx">
+      <publishTime>10/10/2017 09:54:50</publishTime>
+    </File>
+    <File Include="Vista/VerDocumentoAdmin.aspx">
+      <publishTime>10/10/2017 11:06:38</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/09/2017 19:21:50</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>10/02/2017 17:03:33</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

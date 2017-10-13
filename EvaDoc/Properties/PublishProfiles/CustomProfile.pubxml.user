@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>ftp://191.102.85.226/EvaDoc</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/EvaDoc.dll">
+      <publishTime>10/12/2017 10:38:10</publishTime>
+    </File>
+    <File Include="bin/EvaDoc.pdb">
+      <publishTime>10/12/2017 10:38:10</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>09/27/2017 15:44:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/22/2017 03:42:14</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>02/10/2015 17:05:26</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.Entity.dll">
+      <publishTime>02/10/2015 17:04:50</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.Entity.EF5.dll">
+      <publishTime>02/10/2015 17:05:10</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.Entity.EF6.dll">
+      <publishTime>02/10/2015 17:05:30</publishTime>
+    </File>
+    <File Include="bin/MySql.Fabric.Plugin.dll">
+      <publishTime>02/10/2015 17:05:14</publishTime>
+    </File>
+    <File Include="bin/MySql.Web.dll">
+      <publishTime>02/10/2015 17:05:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>09/22/2017 03:42:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>09/22/2017 03:42:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>09/22/2017 03:42:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>09/22/2017 03:42:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>09/22/2017 03:42:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>09/22/2017 03:42:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>09/22/2017 03:42:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>09/22/2017 03:42:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>09/22/2017 03:42:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>09/22/2017 03:42:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>09/22/2017 03:42:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>09/22/2017 03:42:14</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/22/2017 03:42:12</publishTime>
+    </File>
+    <File Include="Index.aspx">
+      <publishTime>10/11/2017 13:51:33</publishTime>
+    </File>
+    <File Include="MasterP.Master">
+      <publishTime>09/10/2017 13:58:40</publishTime>
+    </File>
+    <File Include="Models/Resultado.cs">
+      <publishTime>10/12/2017 10:36:12</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/22/2017 03:42:16</publishTime>
+    </File>
+    <File Include="PersonaRegistrar.aspx">
+      <publishTime>10/10/2017 10:26:19</publishTime>
+    </File>
+    <File Include="Script/Script.js">
+      <publishTime>10/10/2017 14:43:31</publishTime>
+    </File>
+    <File Include="Vista/Calificar.aspx">
+      <publishTime>10/02/2017 17:45:14</publishTime>
+    </File>
+    <File Include="Vista/CalificarProfesor.aspx">
+      <publishTime>10/09/2017 19:48:33</publishTime>
+    </File>
+    <File Include="Vista/CriterioGestionar.aspx">
+      <publishTime>10/10/2017 14:07:25</publishTime>
+    </File>
+    <File Include="Vista/CriterioModificar.aspx">
+      <publishTime>10/02/2017 17:45:16</publishTime>
+    </File>
+    <File Include="Vista/DarNota.aspx">
+      <publishTime>10/09/2017 14:49:03</publishTime>
+    </File>
+    <File Include="Vista/DetalleEvaluar.aspx">
+      <publishTime>10/02/2017 17:46:06</publishTime>
+    </File>
+    <File Include="Vista/DocumentoCalificar.aspx">
+      <publishTime>10/02/2017 17:45:17</publishTime>
+    </File>
+    <File Include="Vista/DocumentoSubir.aspx">
+      <publishTime>10/02/2017 17:45:17</publishTime>
+    </File>
+    <File Include="Vista/EliminarDocumento.aspx">
+      <publishTime>10/10/2017 09:55:32</publishTime>
+    </File>
+    <File Include="Vista/EliminarEvaluador.aspx">
+      <publishTime>10/10/2017 12:59:12</publishTime>
+    </File>
+    <File Include="Vista/EliminarRevision.aspx">
+      <publishTime>10/09/2017 20:05:39</publishTime>
+    </File>
+    <File Include="Vista/EvaluadorAsignar.aspx">
+      <publishTime>10/10/2017 13:00:40</publishTime>
+    </File>
+    <File Include="Vista/GenerarReporte.aspx">
+      <publishTime>10/02/2017 17:45:18</publishTime>
+    </File>
+    <File Include="Vista/Principal.aspx">
+      <publishTime>10/02/2017 17:45:19</publishTime>
+    </File>
+    <File Include="Vista/SubirResultado.aspx">
+      <publishTime>10/09/2017 15:22:21</publishTime>
+    </File>
+    <File Include="Vista/VerDocumento.aspx">
+      <publishTime>10/10/2017 09:54:50</publishTime>
+    </File>
+    <File Include="Vista/VerDocumentoAdmin.aspx">
+      <publishTime>10/10/2017 11:06:38</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/11/2017 14:15:45</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
